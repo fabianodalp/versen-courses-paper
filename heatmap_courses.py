@@ -9,8 +9,8 @@ import matplotlib.cm as cm
 file_path = 'courselist-MASTER.xlsx'
 df = pd.read_excel(file_path)
 
-# Replace 'X' with 1 and NaN with 0 for co-occurrence calculation
-df = df.replace('X', 1).fillna(0)
+# Replace 'X' and 'S' with 1 and NaN with 0 for co-occurrence calculation
+df = df.replace('X', 1).replace('S',1).fillna(0)
 
 # Remove '*' from the column names
 df.columns = df.columns.str.replace('*', '', regex=True)
