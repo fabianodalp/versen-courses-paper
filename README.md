@@ -20,6 +20,6 @@ This is the online appendix of the paper "A Systematic Analysis of Higher Educat
 
 `course_spider.py`: the script we used to retrieve the course descriptions from the syllabi on the universities' pages; this script led to the contents of `course_descriptions.zip`;
 
-`heatmap_courses.py`: Python script that first calculates Spearman correlations between knowledge areas, starting from the `courselist-MASTER.xlsx` file, and then generates the heatmap visualization in Figure 14 of the paper;
+`heatmap_courses.py`: Python script that first calculates Spearman correlations between knowledge areas, starting from the `courselist-MASTER.xlsx` file, and then generates the heatmap visualization in Figure 4 of the paper;
 
-`uni_topic_recurrence.py`: Python script that takes a CSV version of the courses and then generates the distribution of courses mapped to knowledge areas, organized by universities, shown in Figure 15 of the paper.
+`uni_topic_recurrence.py`: Python script that takes a CSV version of the courses and then generates the distribution of courses mapped to knowledge areas, organized by universities, shown in Figure 5 of the paper.
