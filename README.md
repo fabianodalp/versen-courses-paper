@@ -16,7 +16,7 @@ This is the online appendix of the paper "A Systematic Analysis of Higher Educat
 *   _Notes_: some comments on the coding scheme;
 *   _Categories_: the guidelines we employed as a tool to assist us in determining whether a course description would fit a certain KA/category;
 *   _Counting_: aggregate sums/values from _Matrix_, which shows the frequency of KAs;
-*   _Plots_: some charts that reflect our data;
+*   _Plots_: some charts that reflect our data, used to explore the results;
 
 `course_spider.py`: the script we used to retrieve the course descriptions from the syllabi on the universities' pages; this script led to the contents of `course_descriptions.zip`;
 
