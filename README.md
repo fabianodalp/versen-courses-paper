@@ -24,4 +24,6 @@ This is the online appendix of the paper "A Systematic Analysis of Higher Educat
 
 `heatmap_courses.py`: Python script that first calculates Spearman correlations between knowledge areas, starting from the `courselist-MASTER.xlsx` file, and then generates the heatmap visualization in Figure 4 of the paper;
 
+`heatmap_kas_unis.py`: Python script that generates the heatmap visualization in Figure 5 of the paper;
+
 `uni_topic_recurrence.py`: Python script that takes a CSV version of the courses and then generates the distribution of courses mapped to knowledge areas, organized by universities, shown in Figure 5 of the paper.
