@@ -20,7 +20,7 @@ This is the online appendix of the paper "A Systematic Analysis of Higher Educat
 
 `course_spider.py`: the script we used to retrieve the course descriptions from the syllabi on the universities' pages; this script led to the contents of `course_descriptions.zip`;
 
-`freq_versen.xlsx': an Excel file that includes the outputs of the most frequent words in the course descriptions, used in Table 2 and Table 3 in the paper;
+`freq_versen.xlsx`: an Excel file that includes the outputs of the most frequent words in the course descriptions, used in Table 2 and Table 3 in the paper;
 
 `heatmap_courses.py`: Python script that first calculates Spearman correlations between knowledge areas, starting from the `courselist-MASTER.xlsx` file, and then generates the heatmap visualization in Figure 4 of the paper;
 
