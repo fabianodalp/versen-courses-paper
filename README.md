@@ -27,5 +27,3 @@ This is the online appendix of the paper "A Systematic Analysis of Higher Educat
 `heatmap_kas_unis.py`: Python script that generates the heatmap visualization in Figure 5 of the paper;
 
 `uni_topic_recurrence.py`: Python script that takes a CSV version of the courses and then generates the distribution of courses mapped to knowledge areas, organized by universities, shown in Figure 5 of the paper.
-
-[![DOI](https://zenodo.org/badge/1232491570.svg)](https://doi.org/10.5281/zenodo.21276767)
